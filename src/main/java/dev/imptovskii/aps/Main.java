@@ -28,7 +28,7 @@ public final class Main
      getServer().getPluginManager().registerEvents((Listener)new SyntaxBlocker(this), (Plugin)this);
      getServer().getPluginManager().registerEvents((Listener)new CommandBlocker(this), (Plugin)this);
      getServer().getPluginManager().registerEvents((Listener)new CustomVersion(this), (Plugin)this);
-     Bukkit.getConsoleSender().sendMessage("AntiPluginStealer by JoseMarcellio");
+     Bukkit.getConsoleSender().sendMessage("AntiPluginStealer by JoseMarcellio, Fork by /new places/");
      if (getServer().getPluginManager().getPlugin("ProtocolLib") != null) {
        
        if (!getServer().getVersion().contains("1.13") || !getServer().getVersion().contains("1.14") || !getServer().getVersion().contains("1.15")) {

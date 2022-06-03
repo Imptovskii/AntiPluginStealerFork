@@ -27,9 +27,3 @@ public class ReloadCommand
      return true;
    }
  }
-
-
-/* Location:              D:\Downloads\AntiPluginStealer.jar!\com\josemarcellio\joseantipluginstealer\commands\JoseReloadCommand.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */

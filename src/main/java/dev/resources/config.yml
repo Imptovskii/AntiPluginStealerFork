@@ -1,0 +1,22 @@
+antipluginstealer:
+  prefix: "&8[&e&lAntiPluginStealer&e&l&8] "
+  syntaxblocker: "&cAccess denied!"
+  reload-message: "&aConfig Reloaded!"
+  no-permission: "&cYou don't have permission!"
+
+#you need to remove 'ver' and 'version' from command-list if you want to use this custom version
+#and set false to true
+custom-version: 
+  enabled: false
+  version-message: "&7This server is using /new places/ MC Core!"
+
+#set to 'none' if you want without message
+command-message: '&fPlugins (1): &anewplacesCore'
+command-list:
+  - '?'
+  - 'pl'
+  - 'plugins'
+  - 'about'
+  - 'help'
+  - 'ver'
+  - 'version'

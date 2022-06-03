@@ -1,0 +1,9 @@
+name: AntiPluginStealer
+version: 1.0
+main: dev.imptovskii.aps.Main
+depend: [ProtocolLib]
+authors: [Imptovskii]
+description: this plugin to prevent hacked clients from seeing the server plugins
+
+commands:
+  apsreload:

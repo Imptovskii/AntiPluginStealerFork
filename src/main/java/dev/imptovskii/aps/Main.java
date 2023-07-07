@@ -31,12 +31,12 @@ public final class Main
      Bukkit.getConsoleSender().sendMessage("AntiPluginStealer by JoseMarcellio, Fork by /new places/");
      if (getServer().getPluginManager().getPlugin("ProtocolLib") != null) {
        
-       if (!getServer().getVersion().contains("1.13") || !getServer().getVersion().contains("1.14") || !getServer().getVersion().contains("1.15")) {
+       if (!getServer().getVersion().contains("1.13") || !getServer().getVersion().contains("1.14") || !getServer().getVersion().contains("1.15") || !getServer().getVersion().contains("1.16") || !getServer().getVersion().contains("1.17") || !getServer().getVersion().contains("1.18") || !getServer().getVersion().contains("1.19") || !getServer().getVersion().contains("1.20")) {
          ProtocolLibrary.getProtocolManager().addPacketListener((PacketListener)new AntiPluginStealer((Plugin)this, new PacketType[] { PacketType.Play.Client.TAB_COMPLETE }));
        }
      } else {
        
-      getLogger().log(Level.WARNING, "Required ProtocolLib 4.8.0 or higher!");
+      getLogger().log(Level.WARNING, "Required ProtocolLib 5.0.0 or higher!");
      } 
    }
    
